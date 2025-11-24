@@ -330,6 +330,7 @@ app.use(function(req, res, next) {
 });
 
 app.set('port', ( process.env.PORT || 5000 ));
+console.log("PORT=5000");
 
 app.use(express.static(__dirname + '/public'));
 //app.use(opbeat.middleware.express())
